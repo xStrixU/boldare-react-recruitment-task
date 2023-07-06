@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Boldare React Recruitment Task
 
-## Getting Started
+Recruitment task for the React Developer at Boldare company.
 
-First, run the development server:
+## Live preview
+You can try live preview here: https://quick-note-steel.vercel.app <br /><br />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Technology stack
+Technology stack used to create this application:
+|   Technology    |              Usage               | 
+| :-------------: | :------------------------------: |
+|   TypeScript    |       Programming languge        |
+|      React      |      User Interface Library      |
+|     Next.js     |         Framework & SSR          |
+|   TailwindCSS   |          CSS Framework           |
+|     Vitest      |        Testing Framework         |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation and usage
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/xStrixU/boldare-react-recruitment-task.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd boldare-react-recruitment-task
+   ```
+3. Install dependencies:
+   ```sh
+   pnpm install
+   ```
+### Usage
+Usage is different depending on the selected mode: *development* or *production*.
+#### Development mode:
+1. Run the application in development mode:
+   ```sh
+   pnpm dev
+   ```
+#### Production mode:
+1. Build the application:
+   ```sh
+   pnpm build
+   ```
+2. Run the application in production mode:
+   ```sh
+   pnpm start
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Preview
+![image](https://github.com/xStrixU/boldare-react-recruitment-task/assets/41890821/2e97ef2a-8f93-4577-bbdf-072439a8463b)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+MIT License, see [LICENSE](LICENSE).
