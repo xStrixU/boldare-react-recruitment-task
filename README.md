@@ -3,7 +3,7 @@
 Recruitment task for the React Developer at Boldare company.
 
 ## Live preview
-You can try live preview here: https://quick-note-steel.vercel.app <br /><br />
+You can try live preview here: https://boldare-react-recruitment-task.vercel.app
 
 ## Technology stack
 Technology stack used to create this application:
