@@ -32,15 +32,15 @@ export const Pagination = ({ total, page }: PaginationProps) => {
 			<PaginationActionLink href={`/${lastPage}`} aria-label="Last page">
 				{'>>'}
 			</PaginationActionLink>
-			<span>
+			<p>
 				Page{' '}
 				<span className="font-bold">
 					{currentPage} of {lastPage}
 				</span>
-			</span>
-			<span className="ml-auto">
+			</p>
+			<p className="ml-auto">
 				Showing {entryFrom} to {entryTo} of {total} entries
-			</span>
+			</p>
 		</div>
 	);
 };
